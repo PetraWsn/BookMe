@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-RUN npm ci --silent
-
 COPY package*.json ./
+
+RUN npm ci --silent
 RUN npm install
 
 COPY . .
