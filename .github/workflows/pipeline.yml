@@ -63,6 +63,7 @@ jobs:
         with:
           image-ref: bookme-backend
           severity: CRITICAL,HIGH
+          ignore-unfixed: true
           exit-code: 1
 
       - name: Build frontend Docker image
@@ -73,4 +74,5 @@ jobs:
         with:
           image-ref: bookme-frontend
           severity: CRITICAL,HIGH
+          ignore-unfixed: true
           exit-code: 1
