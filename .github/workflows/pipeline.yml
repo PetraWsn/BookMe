@@ -86,7 +86,7 @@ jobs:
 
       # Startar hela miljön (Mongo, Redis, Backend, Frontend)
       - name: Start Services with Docker Compose
-        run: docker-compose up -d
+        run: docker compose up -d
 
       # Vänta på att allt startat ordentligt
       - name: Wait for Environment
@@ -112,4 +112,4 @@ jobs:
 
       - name: Stop Services
         if: always()
-        run: docker-compose down
+        run: docker compose down
