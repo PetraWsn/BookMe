@@ -84,25 +84,25 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # Startar hela miljön (Mongo, Redis, Backend, Frontend)
       - name: Start Services with Docker Compose
         run: docker compose up -d
 
-      # Vänta på att allt startat ordentligt
       - name: Wait for Environment
         run: |
-          echo "Väntar på att tjänsterna ska starta..."
-          sleep 20
-          curl -v http://localhost:5173 || echo "Frontend inte redo än"
+          echo "Väntar på att tjänster ska starta ordentligt..."
+          # Vi kollar om vi får ett 200 OK svar innan vi går vidare
+          timeout 60s bash -c 'until curl -Is http://localhost:5173 | grep "200 OK"; do sleep 5; done'
 
       - name: Run OWASP ZAP Full Scan
         uses: zaproxy/action-full-scan@v0.12.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           target: "http://localhost:5173"
+          # Vi lägger till docker_name för att köra i host-nätverk
+          docker_name: "ghcr.io/zaproxy/zaproxy:stable"
+          cmd_options: "-j" # Extra flagga för att hantera JavaScript-tunga sidor (Vite)
           fail_on_risk: "High"
 
-      # Sparar rapporten så du kan ladda ner den från GitHub Actions-fliken
       - name: Upload DAST Report
         if: always()
         uses: actions/upload-artifact@v4
