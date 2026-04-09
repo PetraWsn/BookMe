@@ -1,0 +1,15 @@
+2026-04-08T09:42:38.880Z [error] INVALID_TOKEN: Felaktig token från IP: ::1. Fel: jwt expired
+2026-04-08T09:42:41.820Z [error] INVALID_TOKEN: Felaktig token från IP: ::1. Fel: jwt expired
+2026-04-08T10:24:56.545Z [error] INVALID_TOKEN: Felaktig token från IP: ::1. Fel: jwt expired
+2026-04-08T10:24:56.550Z [error] INVALID_TOKEN: Felaktig token från IP: ::1. Fel: jwt expired
+2026-04-08T10:46:25.076Z [error] INVALID_TOKEN: Felaktig token från IP: ::1. Fel: jwt expired
+2026-04-08T10:46:25.078Z [error] INVALID_TOKEN: Felaktig token från IP: ::1. Fel: jwt expired
+2026-04-09T08:45:57.327Z [error] Redis error:
+2026-04-09T08:45:57.345Z [error] Redis error:
+2026-04-09T08:45:57.353Z [error] Redis error:
+2026-04-09T08:45:57.863Z [error] Redis error:
+2026-04-09T08:45:58.872Z [error] Redis error:
+2026-04-09T08:46:00.381Z [error] Redis error:
+2026-04-09T08:46:02.390Z [error] Redis error:
+2026-04-09T08:46:04.899Z [error] Redis reconnect attempts exceeded
+2026-04-09T08:46:04.899Z [error] Redis error:

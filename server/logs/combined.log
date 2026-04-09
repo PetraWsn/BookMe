@@ -1,0 +1,419 @@
+2026-04-08T09:31:48.922Z [info] Express-motor och rutter har laddats
+2026-04-08T09:31:48.926Z [info] Konfiguration laddad: Port 5000, Klient: http://localhost:5173
+2026-04-08T09:31:48.967Z [info] DATABASE_CONNECTED: MongoDB-anslutningen lyckades.
+2026-04-08T09:31:48.967Z [info] MongoDB-anslutning lyckades
+2026-04-08T09:31:48.997Z [info] Redis connected
+2026-04-08T09:31:48.998Z [info] Redis-anslutning lyckades
+2026-04-08T09:31:49.000Z [info] Socket.io har initierats
+2026-04-08T09:31:49.003Z [info] Servern körs nu på http://localhost:5000
+2026-04-08T09:31:49.003Z [info] Miljö: development
+2026-04-08T09:31:49.268Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: WhuqesTZGkyccG8wAAAC)
+2026-04-08T09:31:49.269Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: wmiKRNYa1wniQbp-AAAD)
+2026-04-08T09:31:55.449Z [info] Express-motor och rutter har laddats
+2026-04-08T09:31:55.454Z [info] Konfiguration laddad: Port 5000, Klient: http://localhost:5173
+2026-04-08T09:31:55.501Z [info] DATABASE_CONNECTED: MongoDB-anslutningen lyckades.
+2026-04-08T09:31:55.502Z [info] MongoDB-anslutning lyckades
+2026-04-08T09:31:55.538Z [info] Redis connected
+2026-04-08T09:31:55.539Z [info] Redis-anslutning lyckades
+2026-04-08T09:31:55.542Z [info] Socket.io har initierats
+2026-04-08T09:31:55.544Z [info] Servern körs nu på http://localhost:5000
+2026-04-08T09:31:55.544Z [info] Miljö: development
+2026-04-08T09:31:55.779Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: 3q50UdrsySHAMQDwAAAB)
+2026-04-08T09:31:55.781Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: 6ERgbDFIDM-E2VdHAAAD)
+2026-04-08T09:33:01.565Z [info] Express-motor och rutter har laddats
+2026-04-08T09:33:01.569Z [info] Konfiguration laddad: Port 5000, Klient: http://localhost:5173
+2026-04-08T09:33:01.606Z [info] DATABASE_CONNECTED: MongoDB-anslutningen lyckades.
+2026-04-08T09:33:01.606Z [info] MongoDB-anslutning lyckades
+2026-04-08T09:33:01.634Z [info] Redis connected
+2026-04-08T09:33:01.634Z [info] Redis-anslutning lyckades
+2026-04-08T09:33:01.637Z [info] Socket.io har initierats
+2026-04-08T09:33:01.639Z [info] Servern körs nu på http://localhost:5000
+2026-04-08T09:33:01.639Z [info] Miljö: development
+2026-04-08T09:33:01.953Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: HxrL8HClqZhmnQwpAAAC)
+2026-04-08T09:33:01.954Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: _eewIRXOXWdiE3J4AAAD)
+2026-04-08T09:42:38.880Z [error] INVALID_TOKEN: Felaktig token från IP: ::1. Fel: jwt expired
+2026-04-08T09:42:38.882Z [info] POST /api/auth/logout - Status: 401 - Användare: Anonym - IP: ::1
+2026-04-08T09:42:38.898Z [info] CONTROLLER: Ny Access Token genererad för "test four" (ID: 69d61271d01a7a8dafda1a67)
+2026-04-08T09:42:38.899Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-08T09:42:38.904Z [info] CONTROLLER: "test four" utloggad. Redis och Cookie rensade.
+2026-04-08T09:42:38.904Z [info] POST /api/auth/logout - Status: 200 - Användare: test four - IP: ::1
+2026-04-08T09:42:41.820Z [error] INVALID_TOKEN: Felaktig token från IP: ::1. Fel: jwt expired
+2026-04-08T09:42:41.821Z [info] POST /api/auth/logout - Status: 401 - Användare: Anonym - IP: ::1
+2026-04-08T09:42:41.827Z [info] CONTROLLER: Ny Access Token genererad för "Admin" (ID: 69ae8999dc6f24fbdd1fd047)
+2026-04-08T09:42:41.828Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-08T09:42:41.833Z [info] CONTROLLER: "Admin" utloggad. Redis och Cookie rensade.
+2026-04-08T09:42:41.834Z [info] POST /api/auth/logout - Status: 200 - Användare: Admin - IP: ::1
+2026-04-08T09:43:08.686Z [info] LOGIN_LYCKAT: "Admin" (admin) loggade in.
+2026-04-08T09:43:08.687Z [info] CONTROLLER: Inloggning slutförd för admin@bookme.com. Cookie satt.
+2026-04-08T09:43:08.687Z [info] POST /api/auth/login - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-08T09:43:08.731Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:43:08.745Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:43:08.747Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T09:43:08.762Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T09:43:08.764Z [info] GET /api/bookings - Status: 200 - Användare: Admin - IP: ::1
+2026-04-08T09:43:08.765Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T09:43:08.772Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T09:43:08.774Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:43:19.471Z [info] LOGIN_LYCKAT: "test four" (user) loggade in.
+2026-04-08T09:43:19.472Z [info] CONTROLLER: Inloggning slutförd för testfour@test.com. Cookie satt.
+2026-04-08T09:43:19.472Z [info] POST /api/auth/login - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-08T09:43:19.517Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T09:43:19.522Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T09:43:19.524Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-08T09:43:19.531Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-08T09:43:19.532Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T09:43:19.534Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-08T09:43:19.539Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-08T09:43:19.540Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T09:44:05.909Z [info] ANVÄNDARLISTA_HÄMTAD: Admin "Admin" hämtade listan.
+2026-04-08T09:44:05.911Z [info] CONTROLLER: Skickar lista med 5 användare.
+2026-04-08T09:44:05.912Z [info] GET /api/users - Status: 200 - Användare: Admin - IP: ::1
+2026-04-08T09:44:05.915Z [info] ANVÄNDARLISTA_HÄMTAD: Admin "Admin" hämtade listan.
+2026-04-08T09:44:05.918Z [info] CONTROLLER: Skickar lista med 5 användare.
+2026-04-08T09:44:05.919Z [info] GET /api/users - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:44:17.288Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:44:17.292Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:44:17.295Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T09:44:17.300Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T09:44:17.301Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:44:17.303Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T09:44:17.307Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T09:44:17.308Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:44:18.600Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:44:18.603Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:44:34.488Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:44:43.300Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:44:44.819Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:44:44.831Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:44:44.834Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T09:44:44.840Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T09:44:44.841Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:44:44.843Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T09:44:44.847Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T09:44:44.848Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:44:48.069Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:44:48.072Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:44:51.145Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T09:44:51.150Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T09:44:51.151Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:45:01.020Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:45:01.031Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:45:01.033Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T09:45:01.038Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T09:45:01.039Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:45:01.043Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T09:45:01.048Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T09:45:01.049Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:45:20.465Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T09:45:20.468Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T09:45:21.543Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-08T09:45:21.548Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-08T09:45:21.549Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T09:45:25.991Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T09:45:26.004Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T09:45:26.005Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-08T09:45:26.011Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-08T09:45:26.011Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T09:45:26.014Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-08T09:45:26.018Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-08T09:45:26.019Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T09:49:18.072Z [info] ANVÄNDARLISTA_HÄMTAD: Admin "Admin" hämtade listan.
+2026-04-08T09:49:18.074Z [info] CONTROLLER: Skickar lista med 5 användare.
+2026-04-08T09:49:18.074Z [info] GET /api/users - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T09:49:18.076Z [info] ANVÄNDARLISTA_HÄMTAD: Admin "Admin" hämtade listan.
+2026-04-08T09:49:18.078Z [info] CONTROLLER: Skickar lista med 5 användare.
+2026-04-08T09:49:18.078Z [info] GET /api/users - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:06.431Z [info] Express-motor och rutter har laddats
+2026-04-08T10:03:06.436Z [info] Konfiguration laddad: Port 5000, Klient: http://localhost:5173
+2026-04-08T10:03:06.482Z [info] DATABASE_CONNECTED: MongoDB-anslutningen lyckades.
+2026-04-08T10:03:06.483Z [info] MongoDB-anslutning lyckades
+2026-04-08T10:03:06.520Z [info] Redis connected
+2026-04-08T10:03:06.520Z [info] Redis-anslutning lyckades
+2026-04-08T10:03:06.523Z [info] Socket.io har initierats
+2026-04-08T10:03:06.526Z [info] Servern körs nu på http://localhost:5000
+2026-04-08T10:03:06.527Z [info] Miljö: development
+2026-04-08T10:03:08.963Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: q9ttZ_u32SdTBJHqAAAB)
+2026-04-08T10:03:11.201Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: LJrHJEvhvYRK5xscAAAD)
+2026-04-08T10:03:22.239Z [info] SOCKET_DISCONNECTED: Klient ansluten (ID: q9ttZ_u32SdTBJHqAAAB) kopplade ifrån.
+2026-04-08T10:03:24.045Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: j6utmxhHLMMOKS2QAAAF)
+2026-04-08T10:03:24.237Z [info] CONTROLLER: Ny Access Token genererad för "test four" (ID: 69d61271d01a7a8dafda1a67)
+2026-04-08T10:03:24.240Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-08T10:03:24.243Z [info] CONTROLLER: Ny Access Token genererad för "test four" (ID: 69d61271d01a7a8dafda1a67)
+2026-04-08T10:03:24.244Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-08T10:03:24.251Z [info] GET /api/auth/me - Status: 200 - Användare: test four - IP: ::1
+2026-04-08T10:03:24.254Z [info] GET /api/auth/me - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:03:24.351Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:03:24.373Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:03:24.391Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-08T10:03:24.408Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-08T10:03:24.410Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:03:24.411Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-08T10:03:24.420Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-08T10:03:24.422Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:03:30.195Z [info] SOCKET_DISCONNECTED: Klient ansluten (ID: LJrHJEvhvYRK5xscAAAD) kopplade ifrån.
+2026-04-08T10:03:30.418Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: -N6U8uzYW4vGMvflAAAH)
+2026-04-08T10:03:30.419Z [info] CONTROLLER: Ny Access Token genererad för "Admin" (ID: 69ae8999dc6f24fbdd1fd047)
+2026-04-08T10:03:30.420Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-08T10:03:30.421Z [info] CONTROLLER: Ny Access Token genererad för "Admin" (ID: 69ae8999dc6f24fbdd1fd047)
+2026-04-08T10:03:30.422Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-08T10:03:30.440Z [info] GET /api/auth/me - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:30.442Z [info] GET /api/auth/me - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:30.511Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:30.525Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:30.548Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:03:30.556Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:03:30.557Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:30.559Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:03:30.564Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:03:30.566Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:34.282Z [info] ANVÄNDARLISTA_HÄMTAD: Admin "Admin" hämtade listan.
+2026-04-08T10:03:34.283Z [info] CONTROLLER: Skickar lista med 5 användare.
+2026-04-08T10:03:34.284Z [info] GET /api/users - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:34.285Z [info] ANVÄNDARLISTA_HÄMTAD: Admin "Admin" hämtade listan.
+2026-04-08T10:03:34.287Z [info] CONTROLLER: Skickar lista med 5 användare.
+2026-04-08T10:03:34.287Z [info] GET /api/users - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:36.468Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:36.479Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:36.482Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:03:36.487Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:03:36.489Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:36.491Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:03:36.496Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:03:36.496Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:37.198Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:37.200Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:38.521Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:38.531Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:38.535Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:03:38.540Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:03:38.541Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:38.542Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:03:38.547Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:03:38.548Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:45.898Z [info] ANVÄNDARLISTA_HÄMTAD: Admin "Admin" hämtade listan.
+2026-04-08T10:03:45.900Z [info] CONTROLLER: Skickar lista med 5 användare.
+2026-04-08T10:03:45.900Z [info] GET /api/users - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:45.902Z [info] ANVÄNDARLISTA_HÄMTAD: Admin "Admin" hämtade listan.
+2026-04-08T10:03:45.903Z [info] CONTROLLER: Skickar lista med 5 användare.
+2026-04-08T10:03:45.904Z [info] GET /api/users - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:49.969Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:49.980Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:49.985Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:03:49.990Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:03:49.992Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:03:49.993Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:03:49.997Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:03:49.998Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:16.270Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:16.273Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:17.587Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:17.598Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:17.603Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:04:17.608Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:04:17.609Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:17.610Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:04:17.615Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:04:17.616Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:18.561Z [info] ANVÄNDARLISTA_HÄMTAD: Admin "Admin" hämtade listan.
+2026-04-08T10:04:18.562Z [info] CONTROLLER: Skickar lista med 5 användare.
+2026-04-08T10:04:18.563Z [info] GET /api/users - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:18.565Z [info] ANVÄNDARLISTA_HÄMTAD: Admin "Admin" hämtade listan.
+2026-04-08T10:04:18.566Z [info] CONTROLLER: Skickar lista med 5 användare.
+2026-04-08T10:04:18.566Z [info] GET /api/users - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:19.561Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:19.571Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:04:19.573Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:19.576Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:04:19.577Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:19.581Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:04:19.587Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:04:19.588Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:20.416Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:20.420Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:21.335Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:21.344Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:21.348Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:04:21.353Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:04:21.354Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:21.357Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:04:21.361Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:04:21.362Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:22.352Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:22.355Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:24.211Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:04:24.215Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:04:24.216Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:25.490Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:25.493Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:25.503Z [info] HÄMTAR_EN_BOKNING: ID 69d4e69e6c3d3562cf5d37af för användare "Admin"
+2026-04-08T10:04:25.507Z [info] CONTROLLER: Detaljer för bokning 69d4e69e6c3d3562cf5d37af skickade.
+2026-04-08T10:04:25.507Z [info] GET /api/bookings/69d4e69e6c3d3562cf5d37af - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:25.508Z [info] HÄMTAR_EN_BOKNING: ID 69d4e69e6c3d3562cf5d37af för användare "Admin"
+2026-04-08T10:04:25.510Z [info] CONTROLLER: Detaljer för bokning 69d4e69e6c3d3562cf5d37af skickade.
+2026-04-08T10:04:25.511Z [info] GET /api/bookings/69d4e69e6c3d3562cf5d37af - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:26.890Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:04:26.894Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:04:26.895Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:39.231Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:39.234Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:43.925Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:45.935Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:45.945Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:45.952Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:04:45.956Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:04:45.956Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:04:45.958Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-08T10:04:45.962Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-08T10:04:45.963Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-08T10:19:22.475Z [info] Express-motor och rutter har laddats
+2026-04-08T10:19:22.479Z [info] Konfiguration laddad: Port 5000, Klient: http://localhost:5173
+2026-04-08T10:19:22.524Z [info] DATABASE_CONNECTED: MongoDB-anslutningen lyckades.
+2026-04-08T10:19:22.524Z [info] MongoDB-anslutning lyckades
+2026-04-08T10:19:22.556Z [info] Redis connected
+2026-04-08T10:19:22.556Z [info] Redis-anslutning lyckades
+2026-04-08T10:19:22.559Z [info] Socket.io har initierats
+2026-04-08T10:19:22.561Z [info] Servern körs nu på http://localhost:5000
+2026-04-08T10:19:22.562Z [info] Miljö: development
+2026-04-08T10:19:22.777Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: JnMSxiywHWpkoVwkAAAC)
+2026-04-08T10:19:22.778Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: GFJy4luK4UJ3VT0VAAAD)
+2026-04-08T10:20:13.215Z [info] Express-motor och rutter har laddats
+2026-04-08T10:20:13.220Z [info] Konfiguration laddad: Port 5000, Klient: http://localhost:5173
+2026-04-08T10:20:13.254Z [info] DATABASE_CONNECTED: MongoDB-anslutningen lyckades.
+2026-04-08T10:20:13.255Z [info] MongoDB-anslutning lyckades
+2026-04-08T10:20:13.283Z [info] Redis connected
+2026-04-08T10:20:13.283Z [info] Redis-anslutning lyckades
+2026-04-08T10:20:13.288Z [info] Socket.io har initierats
+2026-04-08T10:20:13.290Z [info] Servern körs nu på http://localhost:5000
+2026-04-08T10:20:13.290Z [info] Miljö: development
+2026-04-08T10:20:13.464Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: C_LIxRxPXOcgZQ59AAAB)
+2026-04-08T10:20:13.943Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: 9EklaoTfN1TA3CbDAAAD)
+2026-04-08T10:20:41.716Z [info] Express-motor och rutter har laddats
+2026-04-08T10:20:41.720Z [info] Konfiguration laddad: Port 5000, Klient: http://localhost:5173
+2026-04-08T10:20:41.756Z [info] DATABASE_CONNECTED: MongoDB-anslutningen lyckades.
+2026-04-08T10:20:41.756Z [info] MongoDB-anslutning lyckades
+2026-04-08T10:20:41.781Z [info] Redis connected
+2026-04-08T10:20:41.781Z [info] Redis-anslutning lyckades
+2026-04-08T10:20:41.784Z [info] Socket.io har initierats
+2026-04-08T10:20:41.786Z [info] Servern körs nu på http://localhost:5000
+2026-04-08T10:20:41.786Z [info] Miljö: development
+2026-04-08T10:20:41.952Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: ZbEpw08YoDfTpIedAAAB)
+2026-04-08T10:20:41.954Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: Yy-XExNOmCvAj7nRAAAD)
+2026-04-08T10:24:56.545Z [error] INVALID_TOKEN: Felaktig token från IP: ::1. Fel: jwt expired
+2026-04-08T10:24:56.547Z [info] GET /api/rooms - Status: 401 - Användare: Anonym - IP: ::1
+2026-04-08T10:24:56.550Z [error] INVALID_TOKEN: Felaktig token från IP: ::1. Fel: jwt expired
+2026-04-08T10:24:56.550Z [info] GET /api/rooms - Status: 401 - Användare: Anonym - IP: ::1
+2026-04-08T10:24:56.565Z [info] CONTROLLER: Ny Access Token genererad för "test four" (ID: 69d61271d01a7a8dafda1a67)
+2026-04-08T10:24:56.565Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-08T10:24:56.567Z [info] CONTROLLER: Ny Access Token genererad för "test four" (ID: 69d61271d01a7a8dafda1a67)
+2026-04-08T10:24:56.568Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-08T10:24:56.573Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:24:56.577Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:24:56.579Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-08T10:24:56.594Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-08T10:24:56.595Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:24:56.597Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-08T10:24:56.603Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-08T10:24:56.604Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:25:02.861Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:25:02.864Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:25:02.873Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-08T10:25:02.880Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-08T10:25:02.881Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:25:02.882Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-08T10:25:02.887Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-08T10:25:02.888Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:25.076Z [error] INVALID_TOKEN: Felaktig token från IP: ::1. Fel: jwt expired
+2026-04-08T10:46:25.077Z [info] GET /api/rooms - Status: 401 - Användare: Anonym - IP: ::1
+2026-04-08T10:46:25.078Z [error] INVALID_TOKEN: Felaktig token från IP: ::1. Fel: jwt expired
+2026-04-08T10:46:25.079Z [info] GET /api/rooms - Status: 401 - Användare: Anonym - IP: ::1
+2026-04-08T10:46:25.083Z [info] CONTROLLER: Ny Access Token genererad för "test four" (ID: 69d61271d01a7a8dafda1a67)
+2026-04-08T10:46:25.084Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-08T10:46:25.085Z [info] CONTROLLER: Ny Access Token genererad för "test four" (ID: 69d61271d01a7a8dafda1a67)
+2026-04-08T10:46:25.085Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-08T10:46:25.089Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:25.092Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:25.093Z [info] HÄMTAR_EN_BOKNING: ID 69d61fa31bbeae9f54b98ccb för användare "test four"
+2026-04-08T10:46:25.096Z [info] CONTROLLER: Detaljer för bokning 69d61fa31bbeae9f54b98ccb skickade.
+2026-04-08T10:46:25.097Z [info] GET /api/bookings/69d61fa31bbeae9f54b98ccb - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:25.098Z [info] HÄMTAR_EN_BOKNING: ID 69d61fa31bbeae9f54b98ccb för användare "test four"
+2026-04-08T10:46:25.101Z [info] CONTROLLER: Detaljer för bokning 69d61fa31bbeae9f54b98ccb skickade.
+2026-04-08T10:46:25.101Z [info] GET /api/bookings/69d61fa31bbeae9f54b98ccb - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:26.438Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-08T10:46:26.442Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-08T10:46:26.443Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:27.057Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:27.060Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:27.062Z [info] HÄMTAR_EN_BOKNING: ID 69d61fc31bbeae9f54b98ced för användare "test four"
+2026-04-08T10:46:27.065Z [info] CONTROLLER: Detaljer för bokning 69d61fc31bbeae9f54b98ced skickade.
+2026-04-08T10:46:27.066Z [info] GET /api/bookings/69d61fc31bbeae9f54b98ced - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:27.067Z [info] HÄMTAR_EN_BOKNING: ID 69d61fc31bbeae9f54b98ced för användare "test four"
+2026-04-08T10:46:27.069Z [info] CONTROLLER: Detaljer för bokning 69d61fc31bbeae9f54b98ced skickade.
+2026-04-08T10:46:27.069Z [info] GET /api/bookings/69d61fc31bbeae9f54b98ced - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:27.886Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-08T10:46:27.890Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-08T10:46:27.891Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:39.005Z [info] SOCKET_DISCONNECTED: Klient ansluten (ID: ZbEpw08YoDfTpIedAAAB) kopplade ifrån.
+2026-04-08T10:46:39.128Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: 1HcsrXCaEw2chWF0AAAF)
+2026-04-08T10:46:39.247Z [info] CONTROLLER: Ny Access Token genererad för "test four" (ID: 69d61271d01a7a8dafda1a67)
+2026-04-08T10:46:39.247Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-08T10:46:39.248Z [info] CONTROLLER: Ny Access Token genererad för "test four" (ID: 69d61271d01a7a8dafda1a67)
+2026-04-08T10:46:39.249Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-08T10:46:39.253Z [info] GET /api/auth/me - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:39.254Z [info] GET /api/auth/me - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:41.714Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:41.730Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:41.733Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-08T10:46:41.737Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-08T10:46:41.738Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T10:46:41.739Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-08T10:46:41.744Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-08T10:46:41.745Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-08T11:05:37.881Z [info] SOCKET_DISCONNECTED: Klient ansluten (ID: Yy-XExNOmCvAj7nRAAAD) kopplade ifrån.
+2026-04-08T11:52:48.728Z [info] SOCKET_DISCONNECTED: Klient ansluten (ID: 1HcsrXCaEw2chWF0AAAF) kopplade ifrån.
+2026-04-09T01:04:08.022Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: EWZgZU33zG-LaXEUAAAH)
+2026-04-09T01:08:02.084Z [info] SOCKET_DISCONNECTED: Klient ansluten (ID: EWZgZU33zG-LaXEUAAAH) kopplade ifrån.
+2026-04-09T03:30:33.110Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: nFyzSzVQsfxM1RZiAAAJ)
+2026-04-09T03:34:34.817Z [info] SOCKET_DISCONNECTED: Klient ansluten (ID: nFyzSzVQsfxM1RZiAAAJ) kopplade ifrån.
+2026-04-09T08:06:40.770Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: aaNP6psac4ME7pq1AAAL)
+2026-04-09T08:39:10.378Z [info] SOCKET_DISCONNECTED: Klient ansluten (ID: aaNP6psac4ME7pq1AAAL) kopplade ifrån.
+2026-04-09T08:39:10.913Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: UnUIlBTjcX_C9mWaAAAN)
+2026-04-09T08:39:10.962Z [info] CONTROLLER: Ny Access Token genererad för "test four" (ID: 69d61271d01a7a8dafda1a67)
+2026-04-09T08:39:10.963Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-09T08:39:11.020Z [info] CONTROLLER: Ny Access Token genererad för "test four" (ID: 69d61271d01a7a8dafda1a67)
+2026-04-09T08:39:11.021Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-09T08:39:11.029Z [info] GET /api/auth/me - Status: 304 - Användare: test four - IP: ::1
+2026-04-09T08:39:11.034Z [info] GET /api/auth/me - Status: 304 - Användare: test four - IP: ::1
+2026-04-09T08:39:11.133Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-09T08:39:11.160Z [info] GET /api/rooms - Status: 304 - Användare: test four - IP: ::1
+2026-04-09T08:39:11.185Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-09T08:39:11.228Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-09T08:39:11.234Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-09T08:39:11.242Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "test four" (Roll: user)
+2026-04-09T08:39:11.257Z [info] CONTROLLER: Returnerar 13 bokningar till test four
+2026-04-09T08:39:11.266Z [info] GET /api/bookings - Status: 304 - Användare: test four - IP: ::1
+2026-04-09T08:39:12.314Z [info] SOCKET_DISCONNECTED: Klient ansluten (ID: UnUIlBTjcX_C9mWaAAAN) kopplade ifrån.
+2026-04-09T08:40:40.922Z [info] SOCKET_CONNECTED: Ny klient ansluten (ID: pAtj4RMv6MN0aMVaAAAP)
+2026-04-09T08:40:40.925Z [info] CONTROLLER: Ny Access Token genererad för "Admin" (ID: 69ae8999dc6f24fbdd1fd047)
+2026-04-09T08:40:40.926Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-09T08:40:40.927Z [info] CONTROLLER: Ny Access Token genererad för "Admin" (ID: 69ae8999dc6f24fbdd1fd047)
+2026-04-09T08:40:40.927Z [info] POST /api/auth/refresh - Status: 200 - Användare: Anonym - IP: ::1
+2026-04-09T08:40:40.930Z [info] GET /api/auth/me - Status: 304 - Användare: Admin - IP: ::1
+2026-04-09T08:40:40.932Z [info] GET /api/auth/me - Status: 304 - Användare: Admin - IP: ::1
+2026-04-09T08:40:40.981Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-09T08:40:40.995Z [info] GET /api/rooms - Status: 304 - Användare: Admin - IP: ::1
+2026-04-09T08:40:41.007Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-09T08:40:41.013Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-09T08:40:41.014Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-09T08:40:41.017Z [info] HÄMTAR_BOKNINGAR: Förfrågan från "Admin" (Roll: admin)
+2026-04-09T08:40:41.021Z [info] CONTROLLER: Returnerar 13 bokningar till Admin
+2026-04-09T08:40:41.023Z [info] GET /api/bookings - Status: 304 - Användare: Admin - IP: ::1
+2026-04-09T08:40:42.292Z [info] SOCKET_DISCONNECTED: Klient ansluten (ID: pAtj4RMv6MN0aMVaAAAP) kopplade ifrån.
+2026-04-09T08:45:57.327Z [error] Redis error:
+2026-04-09T08:45:57.345Z [error] Redis error:
+2026-04-09T08:45:57.353Z [error] Redis error:
+2026-04-09T08:45:57.863Z [error] Redis error:
+2026-04-09T08:45:58.872Z [error] Redis error:
+2026-04-09T08:46:00.381Z [error] Redis error:
+2026-04-09T08:46:02.390Z [error] Redis error:
+2026-04-09T08:46:04.899Z [error] Redis reconnect attempts exceeded
+2026-04-09T08:46:04.899Z [error] Redis error:
