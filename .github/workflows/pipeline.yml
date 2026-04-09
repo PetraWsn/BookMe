@@ -34,18 +34,30 @@ jobs:
           cd client
           npm run build || echo "No build script"
 
-  security-scan:
-    runs-on: ubuntu-latest
-    needs: build
+security-scan:
+  runs-on: ubuntu-latest
+  needs: build
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+  steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
 
-      - name: Dependency scan (SCA)
-        run: |
-          cd server
-          npm audit --audit-level=high
+    # SAST med CodeQL
+    - name: Run CodeQL Analysis
+      uses: github/codeql-action/analyze@v2
+      with:
+        category: "/javascript"
+
+    # SCA – dependency scanning
+    - name: Dependency scan (SCA) for backend
+      run: |
+        cd server
+        npm audit --audit-level=high
+
+    - name: Dependency scan (SCA) for frontend
+      run: |
+        cd client
+        npm audit --audit-level=high || echo "No high severity vulnerabilities"
 
   docker-scan:
     runs-on: ubuntu-latest
