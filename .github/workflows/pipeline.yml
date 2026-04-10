@@ -96,13 +96,16 @@ jobs:
 
       - name: Run OWASP ZAP Full Scan
         run: |
+          # Skapa filen med fulla rättigheter
           touch zap_report.html
-          chmod a+w zap_report.html
+          chmod 777 zap_report.html
+
+          # Kör mot FRONTEND (5173). Den kommer hitta formulären som går till backend.
           docker run --rm -v $(pwd):/zap/wrk/:rw --network=host -t ghcr.io/zaproxy/zaproxy:stable zap-full-scan.py \
-            -t http://localhost:5000 \
+            -t http://localhost:5173 \
             -r zap_report.html \
             -j -a \
-            -z "-config scanner.guessAllQueryParameters=true -config scanner.injectSpiderParameters=true" || echo "Sårbarheter hittade"
+            -z "-config scanner.guessAllQueryParameters=true -config scanner.injectSpiderParameters=true" || echo "Scan completed with alerts"
 
       - name: Upload DAST Report
         if: always()
