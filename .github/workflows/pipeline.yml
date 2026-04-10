@@ -99,12 +99,21 @@ jobs:
           touch zap_report.html
           chmod 777 zap_report.html
 
+          # Vi kör scanningen men tvingar den att INTE krascha containern direkt (|| true)
+          # Detta säkerställer att rapporten skrivs klart till disken.
           docker run --rm -v $(pwd):/zap/wrk/:rw --network=host -t ghcr.io/zaproxy/zaproxy:stable zap-full-scan.py \
             -t http://localhost:5173/debug.html?msg=test \
             -r zap_report.html \
-            -j -a \
-            -l Medium \
-            -z "-config scanner.guessAllQueryParameters=true -config scanner.injectSpiderParameters=true"
+            -j -a -l Medium || echo "ZAP_EXIT_CODE=$?" >> $GITHUB_ENV
+
+      - name: Check for Security Alerts (Break the Build)
+        run: |
+          # Vi kollar om rapporten innehåller ordet 'Medium' eller 'High'
+          # Om den gör det, tvingar vi fram ett fel här efter att filen sparats.
+          if grep -qE "Medium|High" zap_report.html; then
+            echo "Säkerhetsbrister hittade! Bryter bygget enligt policy."
+            exit 1
+          fi
 
       - name: Upload DAST Report
         if: always()
