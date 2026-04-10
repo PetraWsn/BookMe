@@ -36,7 +36,7 @@ jobs:
         uses: github/codeql-action/init@v4
         with:
           languages: javascript-typescript
-          queries: security-extended
+          queries: security-and-quality
 
       - name: Autobuild
         uses: github/codeql-action/autobuild@v4
@@ -102,7 +102,7 @@ jobs:
 
           # Kör mot FRONTEND (5173). Den kommer hitta formulären som går till backend.
           docker run --rm -v $(pwd):/zap/wrk/:rw --network=host -t ghcr.io/zaproxy/zaproxy:stable zap-full-scan.py \
-            -t http://localhost:5173 \
+            -t http://localhost:5173/debug.html?msg=test \
             -r zap_report.html \
             -j -a \
             -z "-config scanner.guessAllQueryParameters=true -config scanner.injectSpiderParameters=true" || echo "Scan completed with alerts"
