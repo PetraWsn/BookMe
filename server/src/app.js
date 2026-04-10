@@ -8,6 +8,7 @@ import authRoutes from "./routes/authRoutes.js";
 import errorMiddleware from "./middlewares/errorMiddleware.js";
 import { apiLimiter } from "./middlewares/rateLimiterMiddleware.js";
 import { httpLogger } from "./middlewares/httpLoggerMiddleware.js";
+import { securityLogger } from "./middlewares/securityLogger.js";
 import { logger } from "./config/logger.js";
 
 const app = express();
@@ -24,6 +25,7 @@ app.use(
 );
 
 app.use(express.json());
+app.use(securityLogger);
 app.use("/api", apiLimiter);
 
 // Routes

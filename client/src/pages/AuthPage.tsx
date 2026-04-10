@@ -15,6 +15,9 @@ const AuthPage: React.FC = () => {
 
   const { user } = useAuth();
 
+  /* INBYGGT SÅRBARHET */
+  const msg = searchParams.get("msg") || "";
+
   if (user) {
     return <Navigate to="/dashboard" replace />;
   }
@@ -25,6 +28,15 @@ const AuthPage: React.FC = () => {
         <h1 className="text-h3 font-heading mb-6 text-center text-secondary">
           {isLogin ? "Logga in" : "Registrera"}
         </h1>
+
+        {/* INBYGGT SÅRBARHET: Renderar msg helt oskyddat */}
+        {msg && (
+          <div
+            className="mb-4 text-center text-sm text-red-600"
+            dangerouslySetInnerHTML={{ __html: msg }}
+          />
+        )}
+
         {isLogin ? <LoginForm /> : <RegisterForm />}
       </div>
 
