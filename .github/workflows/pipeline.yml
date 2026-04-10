@@ -35,7 +35,8 @@ jobs:
       - name: Initialize CodeQL (SAST)
         uses: github/codeql-action/init@v3
         with:
-          languages: javascript
+          languages: javascript-typescript
+          queries: security-extended
 
       - name: Autobuild
         uses: github/codeql-action/autobuild@v3
