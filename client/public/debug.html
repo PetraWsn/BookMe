@@ -1,0 +1,11 @@
+<html>
+  <body>
+    <h1>Debug Mode</h1>
+    <script>
+      // Denna sida tar emot ett meddelande och renderar det osäkert
+      const urlParams = new URLSearchParams(window.location.search);
+      const msg = urlParams.get("msg");
+      document.write("System status: " + msg);
+    </script>
+  </body>
+</html>
