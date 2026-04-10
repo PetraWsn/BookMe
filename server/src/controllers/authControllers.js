@@ -26,6 +26,26 @@ export const register = async (req, res, next) => {
     );
     res.status(201).json({ user, accessToken });
   } catch (err) {
+    // --- INBYGGT SÅRBARHET FÖR LEKTION 9 ---
+    if (err.message.includes("finns redan")) {
+      logger.warn(
+        `SÄKERHETSINCIDENT: Registreringsförsök med duplicerad e-post: ${req.body.email}`,
+      );
+
+      // Vi tvingar webbläsaren att tolka svaret som HTML
+      res.setHeader("Content-Type", "text/html");
+
+      // Vi skickar tillbaka felmeddelandet (som innehåller användarens input) orenat
+      return res.status(400).send(`
+        <html>
+          <body>
+            <h1>Registreringsfel</h1>
+            <p>Tyvärr, ${err.message}</p>
+          </body>
+        </html>
+      `);
+    }
+    // ---------------------------------------
     next(err);
   }
 };

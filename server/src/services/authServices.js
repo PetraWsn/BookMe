@@ -13,7 +13,8 @@ export const registerUser = async ({ name, email, password }) => {
   const existingUser = await User.findOne({ email });
   if (existingUser) {
     logger.warn(`REGISTRERINGS_FÖRSÖK: E-post är redan registrerad.`);
-    throw new Error("User already exists");
+    // INBYGGT FEL
+    throw new Error(`Användaren med e-post ${email} finns redan!`);
   }
 
   const hashedPassword = await bcrypt.hash(password, 10);
